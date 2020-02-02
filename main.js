@@ -1,5 +1,6 @@
 const items = document.querySelectorAll('#timeline li');
 
+//function to locate things in viewport
 const isInViewport = el => {
   const rect = el.getBoundingClientRect();
   return (
